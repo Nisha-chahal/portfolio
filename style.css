@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Open+Sans&family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Open+Sans&family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Caveat&family=Open+Sans&family=Roboto+Mono:ital,wght@1,100&family=Roboto+Slab&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Open+Sans&family=Roboto+Mono:ital,wght@1,100&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+.sidebar{
+    background-color: black;
+    /* width:484px; */
+    height:100vh;
+    transition: transform 0.5s ease-in;
+    position:absolute;
+
+}
+.sidebar nav{
+    padding:20px;
+ 
+}
+.sidebar nav  li{
+    /* color:white; */
+    list-style: none;
+    margin: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 25px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color:white;
+}
+.sidebar ul li a:hover{
+    color:rgb(234, 11, 11)
+}
+.main{
+    /* background: yellow; */
+    width:90vw;
+    padding:23px;
+
+}
+.wel{
+    font-size:40px;
+    background: linear-gradient( to right,#f32170,#be421c,#cf23cf,#cc6b33);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin-top:10px;
+
+}
+.mainn h1{
+    color:white;
+    margin-left: 100px;
+    color: rgb(226, 104, 43);
+    /* background-color: brown; */
+    border-color: white;
+    width:250px;
+    font-size: 30px;
+    text-align: center;
+    /* animation-name: nisha ;
+    animation-duration: 8s;
+    animation-iteration-count: 100;
+    animation-delay: 0.01s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: alternate; */
+   
+  
+   
+
+}
+/* @keyframes nisha{
+    from{
+        width:00px;
+
+    }
+    to{
+        width:4000px;
+    }
+} */
+
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(215, 26, 215); */
+    height:60vh;
+    width:80vw;
+    margin:147px auto;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.devpic img{
+    height:60vh;
+   
+    
+}
+.devInfo{
+    display: flex;
+    font-size:16px;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size:3em;
+    color:white;
+    font-family: 'Arima', cursive;
+}
+.name{
+    font-size: 4em;
+    color:darkred;
+    font-family:  'Roboto Slab', serif;
+   
+   
+}
+
+
+.about{
+    font-size: 2.5em;
+    margin-top: 10px;
+    color:white;
+}
+.moreabout{
+    font-size: 2em;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Arima', cursive;
+    color:white;
+}
+.buttons{
+    margin-top: 35px;
+    font-size: 16px;
+   
+
+}
+.buttons button{
+    font-size: 2.2em;
+    padding:18px;
+    border-radius: 27px;
+    border-color: rgb(207, 186, 186);
+    color:rgb(19, 195, 83);
+    cursor: pointer;
+    margin:2px;
+}
+
+.ham{
+    width:30px;
+    margin-left:10px;
+    margin-top:3px;
+    background-color: white;
+}
+.cross{
+    width:21px;
+margin-left:160px;
+background-color: white;
+}
+
+.buttons button:hover{
+    background-color: rgb(177, 17, 17);
+}
+.hamburger{
+    position:absolute;
+    
+    top:10px;
+    left:10px;
+    cursor: pointer;
+}
+.sidebargo{
+    transform: translate(-500px,0px);
+    position:absolute;
+}
+
+@media (max-width:1584px){
+   body{
+    /* background-color: red; */
+   }
+   /* .sidebar{
+    transform: translate(-500px,0px);
+    position:absolute;
+   } */
+   /* .devpic{
+    display: none;
+   } */
+   .intro,.blogconatiner,.contactform{
+    margin:8px;
+   }
+   .devinfo{
+    font-size:10px;
+   }
+   .buttons{
+    font-size: 6px;
+   }
+}

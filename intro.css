@@ -1,0 +1,68 @@
+.skill{
+    width:23vw;
+    height:9px;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    
+}
+.skillcontainer{
+    margin:4px 0;
+    font-size: 20px;
+    color: white;
+}
+h1{
+    margin:5px 0;
+    font-size: 30px;
+    color: white;
+}
+.devinfo p{
+    margin: 2px 0 ;
+    color: white;
+}
+h2{
+    margin:12px 0;
+    font-size: 30px;
+    color: white;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    margin:10px;
+    animation-name: ni ;
+    animation-duration: 3s;
+    animation-iteration-count: 100;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: alternate;
+   
+
+}
+@keyframes ni{
+    from{
+        width:00px;
+
+    }
+    to{
+        width:4000px;
+    }
+}
+.hundered{
+    width:265px;
+}
+.sev{
+    width:210px;
+}
+.fifty{
+    width:125px;
+}
+.t5{
+    width:85px;
+}
+.intro{
+    margin:0 100px;
+}
+.main{
+    margin-left: 100px;
+    margin-top: 20px;
+}

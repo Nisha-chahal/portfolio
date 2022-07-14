@@ -1,0 +1,27 @@
+
+h1{
+    margin-top: 6px;
+    padding-left: 19px;
+    color: white;
+}
+
+.blogitem{
+    margin:10px;
+    padding:10px;
+    color: white;
+}
+.btn{
+    margin:6px;
+    background-color: black;
+    color:rgb(19, 195, 83);
+   padding: 20px;
+    cursor: pointer;
+    border-radius:56px;
+    border-color: rgb(207, 186, 186);
+}
+.btn:hover{
+    color:red;
+}
+.blogcontainer{
+    margin:0 100px;
+}
